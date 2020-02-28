@@ -21,3 +21,9 @@ router.get('/:orderId',(req,res,next)=>{
     });
 });
 module.exports = router;
+
+
+// exports.dummy=(req,res,next)=>{
+//     res.status(200).json({
+//         message:'Orders fetched'
+//     });
